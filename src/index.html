@@ -60,8 +60,8 @@
           >
         </div>
       </section>
-      <section class="mx-auto max-w-wtf" id="skills">
-        <h2 class="text-gray-400 text-xl tracking-wider font-bold">
+      <section class="mx-auto max-w-wtf mb-32" id="skills">
+        <h2 class="text-gray-400 text-xl tracking-wider font-bold mb-4">
           MY SKILLS
         </h2>
         <p class="text-2xl font-medium tracking-tight mb-10">
@@ -131,27 +131,61 @@
         </div>
       </section>
       <section class="mx-auto max-w-wtf" id="projects">
-        <h2>Recent Projects</h2>
-        <p>
+        <h2
+          class="text-gray-400 text-xl tracking-wider font-bold mb-4 uppercase"
+        >
+          Recent Projects
+        </h2>
+        <p class="text-2xl font-medium tracking-tight mb-10">
           Since diving into frontend development, I've brought a range of
           projects to life. Here's a snapshot of my accomplishments so far.
         </p>
-        <article>
-          <h3>hydrapp</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            vero, eum, accusantium praesentium autem, aut fuga maxime ducimus
-            cupiditate neque officia beatae error velit dolore enim eaque
-            assumenda animi. Voluptatem.
-          </p>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-          </ul>
-          <a href="#">View demo</a>
-          <a href="#">Source code</a>
-        </article>
+        <div class="grid">
+          <article
+            class="rounded-wtf bg-gradient-to-br overflow-clip from-white/10 to-white/5"
+          >
+            <div
+              class="border-b border-bg h-11 p-4 gap-1.5 shadow-innerlight rounded-t-wtf flex bg-gradient-to-br from-white/10 to-white/5"
+            >
+              <span class="w-3 h-3 block rounded-full bg-bg opacity-50"></span>
+              <span class="w-3 h-3 block rounded-full bg-bg opacity-50"></span>
+              <span class="w-3 h-3 block rounded-full bg-bg opacity-50"></span>
+            </div>
+            <div class="p-5">
+              <h3 class="text-2xl leading-none font-bold mb-4">hydrapp</h3>
+              <p class="text-gray-400 text-xl mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi vero, eum, accusantium praesentium autem, aut fuga
+                maxime ducimus cupiditate neque officia beatae error velit
+                dolore enim eaque assumenda animi. Voluptatem.
+              </p>
+              <ul class="flex gap-2 mb-10">
+                <li class="bg-gray-400/10 py-1 px-2 rounded text-sm font-bold">
+                  HTML
+                </li>
+                <li class="bg-gray-400/10 py-1 px-2 rounded text-sm font-bold">
+                  CSS
+                </li>
+                <li class="bg-gray-400/10 py-1 px-2 rounded text-sm font-bold">
+                  JS
+                </li>
+              </ul>
+              <div class="flex flex-col gap-4 items-start">
+                <a
+                  class="text-accent bg-bg flex gap-3 font-bold py-4 px-5 items-center rounded-[0.625rem] border-lightGray border-2"
+                  href="#"
+                  ><img class="w-6 h-6" src="images/demo-icon.svg" alt="" />
+                  View demo</a
+                >
+                <a
+                  class="text-accent bg-bg flex gap-3 font-bold py-4 px-5 items-center rounded-[0.625rem] border-lightGray border-2"
+                  href="#"
+                  ><img src="images/github-icon.svg" alt="" /> Source code</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
       </section>
       <section class="mx-auto max-w-wtf">
         <h2>After Hours</h2>
