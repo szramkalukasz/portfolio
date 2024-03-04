@@ -16,6 +16,7 @@ module.exports = {
       },
       borderRadius: {
         wtf: "0.62rem",
+        "wtf-xl": "1.25rem",
       },
       boxShadow: {
         innerlight: "inset 0 2px 0 0 rgba(255,255,255,0.15)",
