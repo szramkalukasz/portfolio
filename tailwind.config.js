@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      animation: {
+        slowSpin: "spin 16s infinite linear",
+      },
       colors: {
         bg: "#020916",
         accent: "#CEFF7E",
