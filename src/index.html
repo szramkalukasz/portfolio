@@ -27,43 +27,50 @@
   </head>
   <body class="font-dmsans bg-bg text-white">
     <main class="px-4">
-      <header class="flex justify-between max-w-wtf mx-auto py-6">
-        <div class="flex gap-4 items-center">
-          <img
-            class="w-10 h-10 animate-slowSpin"
-            src="./images/star.svg"
-            alt=""
-          />
-          <div>
-            <p class="text-xl font-bold text-accent">Łukasz Szramka</p>
-            <p
-              aria-label=" Frontend developer"
-              class="text-white opacity-40 uppercase text-xs tracking-wider"
-            >
-              Frontend developer
-            </p>
+      <header class="py-6 sticky top-0 bg-bg/50 backdrop-blur-lg">
+        <div class="flex justify-between gap-4 max-w-wtf mx-auto">
+          <div class="flex gap-4 items-center">
+            <img
+              class="w-10 h-10 animate-slowSpin"
+              src="./images/star.svg"
+              alt=""
+            />
+            <div>
+              <p class="text-xl font-bold text-accent">Łukasz Szramka</p>
+              <p
+                aria-label=" Frontend developer"
+                class="text-white opacity-40 uppercase text-xs tracking-wider"
+              >
+                Frontend developer
+              </p>
+            </div>
           </div>
+          <nav class="hidden md:block">
+            <ul class="flex items-center gap-10 font-bold">
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li>
+                <a class="flex gap-2 items-center" download href="#"
+                  ><img
+                    src="images/download.svg"
+                    width="24"
+                    height="24"
+                    alt=""
+                  />
+                  Resume</a
+                >
+              </li>
+              <li>
+                <a
+                  class="inline-block bg-accent text-bg rounded-xl py-3.5 px-8"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav class="hidden md:block">
-          <ul class="flex items-center gap-10 font-bold">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li>
-              <a class="flex gap-2 items-center" download href="#"
-                ><img src="images/download.svg" width="24" height="24" alt="" />
-                Resume</a
-              >
-            </li>
-            <li>
-              <a
-                class="inline-block bg-accent text-bg rounded-xl py-3.5 px-8"
-                href="#contact"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </nav>
       </header>
       <section
         class="mx-auto max-w-wtf mb-20 md:mb-32 md:pt-32 md:flex md:justify-between items-center md:gap-12"
