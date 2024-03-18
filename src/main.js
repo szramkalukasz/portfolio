@@ -26,7 +26,7 @@ fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
 
       const element = `<article class="rounded-wtf md:rounded-wtf-xl overflow-clip bg-gradient-to-br from-white/10 to-white/5 flex flex-col h-full ">
     <div
-      class="h-11 p-4 gap-1.5 shadow-inner-light rounded-t-wtf md:rounded-t-wtf-xl  flex bg-gradient-to-br from-white/10 to-white/5 ring-1 ring-inset ring-bg">
+      class="h-11 p-4 gap-1.5 shadow-innerlight rounded-t-wtf md:rounded-t-wtf-xl  flex bg-gradient-to-br from-white/10 to-white/5 ring-1 ring-inset ring-bg">
       <span class="w-3 h-3 block rounded-full bg-bg opacity-50"></span>
       <span class="w-3 h-3 block rounded-full bg-bg opacity-50"></span>
       <span class="w-3 h-3 block rounded-full bg-bg opacity-50"></span>

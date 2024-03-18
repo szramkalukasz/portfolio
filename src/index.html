@@ -27,7 +27,7 @@
   </head>
   <body class="font-dmsans bg-bg text-white">
     <main class="px-4">
-      <header class="py-6 sticky top-0 bg-bg/50 backdrop-blur-lg">
+      <header class="py-3 md:py-6 sticky top-0 bg-bg/50 backdrop-blur-lg">
         <div class="flex justify-between gap-4 max-w-wtf mx-auto">
           <div class="flex gap-4 items-center">
             <img
@@ -77,8 +77,14 @@
         id="about"
       >
         <picture class="md:order-2">
-          <source srcset="images/lukasz.png" type="image/webp" />
-          <source srcset="images/lukasz.png" type="image/avif" />
+          <source
+            srcset="images/lukasz.png?as=webp&width=832"
+            type="image/webp"
+          />
+          <source
+            srcset="images/lukasz.png?as=avif&width=832"
+            type="image/avif"
+          />
           <img
             width="416"
             height="459"
@@ -101,18 +107,20 @@
             have a glimpse at my
             <a class="text-white" href="#projects">projects</a>. I'm looking for
             a new challenges so if you have one -
-            <a class="text-white" href="#contact">contact me</a>😊
+            <a href="#contact" class="text-white">contact me</a>😊
           </p>
           <div class="flex flex-col md:flex-row items-center gap-4 flex-wrap">
             <a
-              class="bg-accent text-bg flex gap-3 font-bold text-xl py-2 px-4 md:py-3.5 md:px-6 items-center rounded-wtf md:rounded-wtf-xl ring-accent ring-2"
+              class="bg-accent text-bg flex gap-3 font-bold text-xl py-2 px-4 md:py-3.5 md:px-6 items-center rounded-wtf md:rounded-wtf-xl ring-accent ring-2 hover:ring-accent-400 hover:bg-accent-400 transition-colors duration-500"
               href="#contact"
-              ><img src="images/chat.svg" alt="" /> Get in touch</a
+              ><img src="images/chat.svg" alt="" width="24" height="24" /> Get
+              in touch</a
             >
             <a
-              class="text-accent bg-bg flex gap-3 font-bold text-xl py-2 px-4 md:py-3.5 md:px-6 items-center rounded-wtf md:rounded-wtf-xl ring-lightGray ring-2"
+              class="text-accent bg-bg flex gap-3 font-bold text-xl py-2 px-4 md:py-3.5 md:px-6 items-center rounded-wtf md:rounded-wtf-xl ring-gray-800 ring-2 hover:ring-accent"
               href="#skills"
-              ><img src="images/user.svg" alt="" /> Get to know me</a
+              ><img src="images/user.svg" alt="" width="24" height="24" /> Get
+              to know me</a
             >
           </div>
         </div>
@@ -175,6 +183,7 @@
               <li>— PWA</li>
               <li>— Git</li>
               <li>— Accessibility</li>
+              <li>— React</li>
             </ul>
           </article>
           <article
